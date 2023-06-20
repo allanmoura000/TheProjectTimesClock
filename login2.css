@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300&family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.897);
+    background-image: url(./imagens/background.svg);
+    background-repeat: repeat-x;
+}
+
+.logo{
+    display: block;
+    width: 200px;
+    margin: auto;
+    margin-top: 40px;
+    transform: translateY(-30px);
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 400px;
+    height: 550px;
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    gap: 50px;
+    transform: translateY(-20px);
+
+}
+
+.container-tittle h1{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.container-inserir{
+    text-align: justify;
+    font-size: 17px;
+}
+
+.container-inserir input{
+    width: 300px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color: #CBCBCB;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-inserir p{
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.confirmar button{
+    font-size: 22px;
+    width: 200px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container-login button{
+    font-size: 22px;
+    width: 200px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.linha-texto{
+    width: 90%;
+    height: 10px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+.linha-texto > span{
+    font-size: 16px;
+    background-color: white ;
+    padding: 0 10px;
+    color: rgb(63, 63, 63);
+}
+
+#slide{
+    animation-name: slide;
+    animation-duration: .3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+
+}
+
+#slide2{
+    animation-name: slide2;
+    animation-duration: .5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+
+    from {
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slide2 {
+
+    from {
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

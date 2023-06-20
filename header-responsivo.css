@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+   /* background-image: linear-gradient(to top,#5f5d5d, #000000);*/
+    background-color: #00010D;    
+    width: 100vw;
+
+}
+
+.container-geral{
+    display: flex;
+    margin: auto;
+    max-width: 1500px;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    display: block;
+    width: 150px;
+}
+.pesquisa_btn{
+    display: flex;
+}
+.pesquisa_btn input{
+    font-size: 20px;
+    width: 500px;
+    padding: 5px;
+    border-radius: 10px 0px 00px 10px;
+    border: none;
+    outline: none;
+}
+.pesquisa_btn button{
+    background-color: white;
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.pesquisa_btn button span{
+    font-size: 30px;
+    padding: 5px;
+}
+
+.icons{
+    display: flex;
+    gap: 40px;
+
+}
+
+.icons span{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+.menu{
+    width: 100;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0px;
+    background-color: #262626;
+}
+.menu span{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.menu ul{
+    display: flex;
+    gap: 180px;
+
+}
+.menu ul li{
+    padding-top: 5px;
+}
+.menu ul li a{
+    color: white;
+    font-size: 20px;
+
+}
+
+footer{
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #111;
+    color: white;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: white;
+}
+.socials a i{
+    font-size: 1.1rem;
+}
+.footer-bottom{
+    background-color: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+

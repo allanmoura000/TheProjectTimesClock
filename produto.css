@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(206, 206, 206, 0.425);
+}
+.main-container{
+    display: flex;
+    max-width: 1500px;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(184, 184, 184, 0.5);
+    padding-top: 25px;
+    padding-bottom: 80px;
+}
+
+.produto-img{
+    display: flex;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.caracteristicas{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0px;
+    border: 1px solid rgba(173, 172, 172, 0.384);
+    padding: 30px;
+    padding-bottom: 100px;
+    padding-right: 150px;
+    border-radius: 10px;
+
+}
+.car-prod{
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+.carac{
+    display: flex;
+    align-items: center;
+    row-gap: 70px;
+    column-gap: 30px;
+    align-items: center;
+    margin-bottom: 15px;
+
+}
+.carac h2{
+    font-weight: 400;
+}
+.icon{
+    border-radius: 50%;
+    background-color: rgba(206, 202, 202, 0.411);
+}
+.icon img{
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+}
+.prod-img{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+}
+.reloginho img{
+    box-shadow: inset 1px 1px .5px rgb(192, 192, 192);
+    box-shadow: 1px 1px .5px rgb(192, 192, 192);
+
+    border-radius: 8px;
+}
+
+.img-grande{
+    transform: rotateX('25deg');
+    width: 400px ;
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.main-container{
+    margin-bottom: 100px;
+}
+.container-compra{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    border: .7px solid rgba(182, 182, 182, 0.507);
+    padding: 20px;
+    margin-top: 40px;
+    border-radius: 12px;
+    padding-bottom: 400px;
+
+}
+.container-compra h2{
+    font-weight: 500;
+}
+.h2-coracao{
+    display: flex;
+}
+#cu{
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    margin-left: 10px;
+}
+.icons-estrela{
+    padding-top: 20px;
+}
+.icons-estrela span{
+    font-size: 34px;
+    margin-right: -7px;
+}
+.mais-vendido{
+    background-color: #FD8F40;
+    width: 150px;
+    padding: 5px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.mais-vendido h2{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.preco{
+    margin-bottom: 40px;
+}
+.preco h3{
+    font-weight: 300;
+}
+
+.frete{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.frete span{
+    font-size: 40px;
+}
+
+.txt h3{
+    color: #898989;
+    font-weight: 300;
+}
+
+.estoque{
+    padding: 40px 0px;
+}
+
+.quant{
+    display: flex;
+    gap: 10px;
+}
+.quant select{
+    border: .5px solid rgba(128, 128, 128, 0.267);
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.botoes{
+    display: flex;
+    margin: 15px 0px;
+    gap: 40px;
+}
+.botoes .compra{
+    font-size: 25px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 15px;
+    cursor: pointer;
+    
+}
+
+.botoes button{
+    font-size: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.botoes button span{
+    font-size: 30px;
+    text-align: center;
+    padding: 0px;
+    width: 80px;
+    
+}
+
+.compra:hover{
+    background-color: #383636;
+}
+.botoes button:hover{
+    background-color: #383636;
+}
+
+hr{
+    color: rgb(255, 0, 0);
+    margin: 60px 0px;
+}
+.meios-pag p{
+    font-weight: 500;
+}
+.meios-pag h2{
+    padding: 15px 0px;
+}
+
+.credit-cards{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.credit-cards img{
+    display: block;
+    width: 70px;
+}
+
+.cart-debito{
+    margin: 15px 0px;
+}
+
+.caixa img{
+    display: block;
+    width: 90px;
+}
+
+
+
+
+
+@media (min-width: 500px){
+    body{
+        
+    }
+}
+
+

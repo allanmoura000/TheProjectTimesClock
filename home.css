@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main{
+    max-width: 1500px;
+    margin: auto;
+}
+.relogio img{
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+    width: 1200px;
+    height: 300px;
+    margin-bottom: 40px;
+  
+}
+
+.anuncio1{
+    display: block;
+    margin-left: 6%;
+}
+
+
+
+.container-main a{
+    color: black;
+}
+
+.card{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.151);
+    border-radius: 8px;
+    padding: 15px;
+    margin-right: 0px;
+    
+}
+.card:hover{
+    height: 400px;
+    box-shadow: 0px 5px 15px rgba(170, 170, 170, 0.719);
+}
+.card img{
+    width: 190px;
+    height: 156px;
+}
+.card .txt h2{
+    font-size: 18px;
+}
+.icons-estrelas{
+    display: flex;
+}
+.material-symbols-outlined{
+    margin-right: -7px;
+}
+.star-and-text{
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+.star-and-text p{
+    font-size: 12px;
+}
+
+
+.nome-prod{
+    padding-bottom: 20px;
+    padding-top: 40px;
+}
+.smartwatches{  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    column-gap: 50px;
+}
+.prom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    column-gap: 50px;
+
+}
+.prom .card:last-child{
+    margin-right: 0px;
+}
+
+.container-confira{
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+    margin-top: 80px;
+    width: 100%;
+}
+.card-confira a img{
+    display: block;
+    width: 600px;
+    border-radius: 10px;
+}
+.card-confira a img:hover{
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.616);
+}
+.card-confira a img:last-child{
+    margin-left: -50px;
+}
+
+.promocao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    column-gap: 50px;
+    margin-bottom: 160px;
+
+}

@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(206, 206, 206, 0.425);
+}
+
+.main-carrinho{
+    display: flex;
+    background-color: white;
+    box-shadow: 0px 5px 15px rgba(184, 184, 184, 0.5);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    flex-direction: column;
+    width: 1500px;
+    padding: 40px;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+.relogio-img{
+    display: flex;
+    gap: 40px;
+}
+.carrinho-name{
+    font-weight: 600;
+}
+.preco{
+    border: 1px solid rgb(192, 190, 190);
+    text-align: center;
+    font-weight: 500;
+    border-radius: 8px;
+    margin-left: 565px;
+    height: 50px;
+    padding: 5px 8px;
+}
+.relogio-img img{
+    display: block;
+    width: 180px;
+    padding: 20px;
+    border: 1px solid rgb(192, 190, 190);
+    border-radius: 10px;
+}
+
+.txt{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.txt h2{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.txt select{
+    border-radius: 8px;
+    cursor: pointer;
+    width: 200px;
+    height:35px;
+}
+.subtotal{
+    font-weight: 500;
+    margin: 40px 0px;
+}
+.excluir{
+    text-align: right;
+    cursor: pointer;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.relogio-img2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.relogio-img2 img{
+    display: block;
+    width: 100px;
+    background-color: rgba(192, 190, 190, 0.199);
+    border: 1px solid rgb(192, 190, 190);
+    border-radius: 10px;
+}
+.relogio-img2 h2{
+    font-weight: 500;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.icon span{
+    font-size: 50px;
+}
+.icon h2{
+    font-weight: 500;
+}
+.total{
+    font-weight:500 ;
+}
+
+.finalizar{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+    margin-top: -125px;
+    margin-left: 1100px;
+    margin-bottom: 40px;
+}
+.cartoes{
+    display: flex;
+}
+.finalizar button{
+    font-size: 30px;
+    padding: 5px 15px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
